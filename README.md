@@ -6,7 +6,6 @@ Requires the following additional files in top directory:
 | id | exercise_name | used_equipment	| prim_muscle | sec_muscles |
 --- | --- | --- | --- | --- 
 | 1	| Bench Press	| Barbell	|  Pectoralis Major (Sternal)	| Pectoralis Major (Clavicular), Deltoid, Triceps |
---- | --- | --- | --- | --- 
 | 2	| Lever Incline Row |	Lerver	| Back | Trapezius, Latissimus |                           |
 
  
