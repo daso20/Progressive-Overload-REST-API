@@ -22,8 +22,8 @@ CLEAR_PASSWORD
 
 Commands to run the application:
 1.- Generate database data:
-# alembic upgrade head 
+alembic upgrade head 
 2.- Run FASTAPI application:
-# uvicorn app.main:app --reload --host <IP_address> --port <Port>
+uvicorn app.main:app --reload --host <IP_address> --port <Port>
 
 Documentation on endpoints can be found under http://<IP_address>:<Port>/docs after starting the uvicorn service.
