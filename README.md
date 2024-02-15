@@ -24,6 +24,6 @@ Commands to run the application:
 - Generate database data:
 alembic upgrade head
 - Run FASTAPI application:
-uvicorn app.main:app --reload --host <IP_address> --port <port>
+uvicorn app.main:app --reload --host "IP_address" --port "Port"
 
-Documentation on endpoints can be found under http://<IP_address>:<port>/docs after starting the uvicorn service.
+Documentation on endpoints can be found under http://"IP_address":"Port"/docs after starting the uvicorn service.
