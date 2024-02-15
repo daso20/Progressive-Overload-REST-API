@@ -2,13 +2,13 @@ REST-API Endpoint to fetch data from PostgreSQL database. Developed in Python ve
 
 Requires the following additional files in top directory:
 - "exercises.xlsx" (saved as "Excel Workbook", not as "Strict Open XML Spreadsheet") which will contain the exercises added to the database. Example data would look as the following:
--------------------------------------------------------------------------------------------------------------------------
-| id | exercise_name     | used_equipment	|  prim_muscle        	      | sec_muscles                                     |
--------------------------------------------------------------------------------------------------------------------------
-| 1	 | Bench Press	     |  Barbell	      |  Pectoralis Major (Sternal)	| Pectoralis Major (Clavicular), Deltoid, Triceps |
--------------------------------------------------------------------------------------------------------------------------
-| 2	 | Lever Incline Row |	Lerver	      |  Back 	                    | Trapezius, Latissimus                           |
--------------------------------------------------------------------------------------------------------------------------
+
+| id | exercise_name | used_equipment	| prim_muscle | sec_muscles |
+--- | --- | --- | --- | --- 
+| 1	| Bench Press	| Barbell	|  Pectoralis Major (Sternal)	| Pectoralis Major (Clavicular), Deltoid, Triceps |
+--- | --- | --- | --- | --- 
+| 2	| Lever Incline Row |	Lerver	| Back | Trapezius, Latissimus |                           |
+
  
 - ".env" file for private data. Contains the following parameters:
 DATABASE_HOSTNAME
